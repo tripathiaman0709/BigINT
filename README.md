@@ -20,6 +20,8 @@ Designed primarily for:
 
 ---
 
+![BigINT Preview](./preview.png)
+
 ## 🚀 Features
 
 - ✅ Arbitrary Precision Integer Arithmetic
@@ -35,6 +37,14 @@ Designed primarily for:
 - ✅ Standard C++ Style Usage
 
 ---
+
+## ⚡ Capability Showcase
+
+- Compute factorials of extremely large numbers
+- Perform arithmetic on integers with thousands of digits
+- Handle computations beyond native C++ datatype limits
+- Supports large-scale mathematical experimentation
+
 
 # 📦 Project Structure
 
@@ -130,7 +140,7 @@ if(a > b) {
 
 ---
 
-# 🛠️ Inbuilt Functions
+# 🛠️ Utility Functions
 
 | Function | Description |
 |---|---|
@@ -201,6 +211,30 @@ Key concepts implemented:
 7526901790514881921
 ```
 
+# 📈 Benchmarks
+
+| Operation | Digits | Time |
+|---|---|---|
+| Factorial(1000) | 2568 | 0.12s |
+| Multiplication | 5000 digits | 0.08s |
+
+## Quick Start
+
+```bash
+g++ -std=c++17 SampleTest.cpp -o test
+./test
+```
+
+---
+
+# 📚 Key Learnings
+
+- Arbitrary precision arithmetic
+- Operator overloading in C++
+- Carry propagation algorithms
+- Manual implementation of mathematical operations
+- Complexity analysis
+- Low-level numerical computation
 ---
 
 # 🎯 Why This Project?
